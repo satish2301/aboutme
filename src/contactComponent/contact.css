@@ -1,0 +1,56 @@
+
+body{
+
+ /* background-color: linear-gradient(135deg, #f403dd1,#64b5f6);*/
+}
+
+.contact-main{
+	margin-top: 80px;
+}
+.left{
+	margin-top: 150px;
+}
+.contact-heading{
+    color: darkgoldenrod;
+}
+@media (max-width: 496px){
+	.left{
+		margin-top: 10px;
+	}
+}
+@media (max-width: 450px){
+	h1{
+	font-size: 40px;	
+	}
+	.button-85{
+		width: 120px!important;
+	}
+}
+
+.footer{
+	background-color: orange;
+	height: 150px;
+
+
+
+
+
+-webkit-clip-path: polygon(52% 10%, 100% 0, 100% 23%, 100% 36%, 100% 100%, 0 100%, 0 16%); clip-path: polygon(52% 10%, 100% 0, 100% 23%, 100% 36%, 100% 100%, 0 100%, 0 16%);
+
+
+
+}
+.name-heading{
+	font-size: 30px;
+}
+h3{
+	color: blue;
+}
+@media (max-width: 900px){
+	.footer{
+		height: 150px;
+	}
+}
+h4{
+	color: blue;
+}

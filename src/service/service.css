@@ -1,0 +1,110 @@
+.service-part{
+	margin-top: 100px;
+}
+
+.s-left-heading{
+	font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.service-first-data{
+	letter-spacing: 2px;
+}
+
+
+.service-first{
+	margin-top: -20px;
+	color: yellow;
+	font-weight: 700;
+}
+
+.s-right-design{
+	background-color: rgba(0, 0, 0, 0.9);
+	border-radius: 20px;
+	color: white;
+	/*border: 10px solid darkmagenta;*/
+	padding: 10px 40px 0px 40px;
+	text-align: center;
+	transition: all 3s ;
+	animation: mymove 3s infinite ;
+	box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+@keyframes mymove{
+			50%{box-shadow:5px 5px inset yellow, 
+				5px 5px 4px blue;}
+		}
+.service-second-card{
+	margin-top: -80px;
+}
+.service-third-card{
+	margin-left: 70px;
+}
+.service-first-data{
+
+}
+@media (max-width: 716px){
+	.second-card{
+		margin-top: 10px;
+	}
+	.service-second-card{
+		margin-top: 10px;
+	}
+	.service-third-card{
+		transform: translateY(-35px);
+		margin-left: -3px;
+	}
+}
+
+.achive-card{
+	width: 200px;
+	height: 150px;
+	/*background-color: blue;*/
+	text-align: center;
+	/*line-height: 150px;*/
+	/*background-color: rgba(0, 0,255, 0.2);*/
+
+	
+}
+.card{
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	transform: translate(65px);
+	text-align: center;
+	width: 50px;
+	line-height: 50px;
+	height: 50px;
+	border-radius: 50%;
+	/*background-color: yellow;*/
+	font-size: 30px;
+	font-weight: bold;
+	color:purple;
+}
+.exper{
+	font-size: 25px;
+	margin-top: 20px;
+	font-weight: 900;
+}
+
+@media (max-width: 919px){
+	.achive-card{
+		transform: translate(-0px);
+	}
+}
+@media (max-width: 400px){
+	.achive-card{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.card{
+		transform: translate(160px);
+	}
+}
